@@ -14,5 +14,5 @@ class Statistics:
         return b/a
     def square(self,a):
         return a*a
-    def sqaureRoot(self,a):
+    def squareRoot(self,a):
         return math.sqrt(a)

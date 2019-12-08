@@ -56,8 +56,8 @@ class MyTestCase(unittest.TestCase):
         for row in test_data:
             a= int(row['Value 1'])
             result = float(row['Result'])
-            self.assertAlmostEqual(self.statistic.sqaureRoot(a), result)
-            self.assertNotEqual(self.statistic.sqaureRoot(a), result-1)
+            self.assertAlmostEqual(self.statistic.squareRoot(a), result)
+            self.assertNotEqual(self.statistic.squareRoot(a), result-1)
     
 if __name__ == '__main__':
     unittest.main()
